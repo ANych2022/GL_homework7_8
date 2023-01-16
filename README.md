@@ -3,7 +3,7 @@
 In this task we create Ansible script that will harden users’ passwords by rejecting the ones that contain a username (this rule will enforce  for ‘root’ as well):
 - Install the libpam-pwquality package on our system
 
-  role install_pwquality
+  ``` role install_pwquality ```
   
 - After installing the package, we need to edit the /etc/pam.d/common-password file to set the password requirements
 
