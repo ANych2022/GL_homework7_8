@@ -1,0 +1,9 @@
+---
+
+- name: Install pwquality
+  ansible.builtin.apt:
+    pkg:
+    - libpam-pwquality
+    - cracklib-runtime
+    state: latest
+    update_cache: yes

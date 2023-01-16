@@ -1,0 +1,2 @@
+[group1]
+hw78 ansible_host=44.204.237.152
